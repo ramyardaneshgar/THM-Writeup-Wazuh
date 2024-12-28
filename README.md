@@ -9,7 +9,7 @@ Writeup for TryHackMe Wazuh Lab - Advanced rule creation, decoder configuration,
 
 ## **Introduction**  
 
-The Wazuh platform, built on the ELK stack (Elasticsearch, Logstash, and Kibana), serves as a powerful tool for log analysis and threat detection. In this lab, I delved into Wazuh's advanced capabilities, focusing on custom decoder configurations and rule creation. The objective was to address specific organizational use cases by extending detection capabilities beyond pre-configured rules, reducing noise, and tailoring security configurations to real-world attack scenarios.  
+The Wazuh platform, built on the ELK stack (Elasticsearch, Logstash, and Kibana), serves as a powerful tool for log analysis and threat detection. In this lab, I delved into Wazuh's advanced capabilities, focusing on custom decoder configurations and rule creation. The objective was to address specific organizational use cases by extending detection capabilities beyond pre-configured rules, reducing noise, and tailoring security configurations to attack scenarios.  
 
 This writeup documents the rationale and methodology behind each step, providing insights into how Wazuh can be leveraged for effective threat detection. 
 
