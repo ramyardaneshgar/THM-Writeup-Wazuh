@@ -36,7 +36,7 @@ Decoders act as the first layer of log processing in Wazuh, transforming raw, un
    The decoder successfully extracted critical fields such as `commandLine` and `processGuid`.  
 
 ### Reasoning  
-This step was essential to ensure the decoder could parse Sysmon logs accurately, as the extracted fields are the foundation for downstream rule evaluations. Testing the decoder output validated its functionality and ensured reliability in real-world scenarios.  
+This step was essential to ensure the decoder could parse Sysmon logs accurately, as the extracted fields are the foundation for downstream rule evaluations. Testing the decoder output validated its functionality and ensured reliability.  
 
 ---
 
@@ -67,7 +67,7 @@ Rules enable Wazuh to identify threats by evaluating the structured data extract
    - **MITRE Technique:** `T1055`.  
 
 ### Reasoning  
-Testing with real-world scenarios, such as detecting `svchost.exe`, ensures that rules are correctly identifying threats. This step validated the rule’s ability to detect a critical attack vector, making it operationally reliable.  
+Testing with attack scenarios, such as detecting `svchost.exe`, ensures that rules are correctly identifying threats. This step validated the rule’s ability to detect a critical attack vector, making it operationally reliable.  
 
 ---
 
